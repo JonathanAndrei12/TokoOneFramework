@@ -7,102 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB82B98C2AE7A2E300026B2D /* TokoOneFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = AB82B98B2AE7A2E300026B2D /* TokoOneFramework.docc */; };
-		AB82B9922AE7A2E300026B2D /* TokoOneFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB82B9872AE7A2E300026B2D /* TokoOneFramework.framework */; };
-		AB82B9972AE7A2E300026B2D /* TokoOneFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB82B9962AE7A2E300026B2D /* TokoOneFrameworkTests.swift */; };
-		AB82B9982AE7A2E300026B2D /* TokoOneFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = AB82B98A2AE7A2E300026B2D /* TokoOneFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB82B9A52AE7A30800026B2D /* TokoOne_HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB82B9A22AE7A30800026B2D /* TokoOne_HomeView.swift */; };
-		AB82B9A62AE7A30800026B2D /* TokoOne_HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB82B9A42AE7A30800026B2D /* TokoOne_HomeViewModel.swift */; };
+		AB82B9CC2AE7ACB900026B2D /* TokoOneFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = AB82B9CB2AE7ACB900026B2D /* TokoOneFramework.docc */; };
+		AB82B9CD2AE7ACB900026B2D /* TokoOneFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = AB82B9CA2AE7ACB900026B2D /* TokoOneFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB82B9DD2AE7AD0500026B2D /* TokoOne_HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB82B9DA2AE7AD0500026B2D /* TokoOne_HomeView.swift */; };
+		AB82B9DE2AE7AD0500026B2D /* TokoOne_HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB82B9DC2AE7AD0500026B2D /* TokoOne_HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		AB82B9932AE7A2E300026B2D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB82B97E2AE7A2E300026B2D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB82B9862AE7A2E300026B2D;
-			remoteInfo = TokoOneFramework;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		AB82B9872AE7A2E300026B2D /* TokoOneFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TokoOneFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB82B98A2AE7A2E300026B2D /* TokoOneFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TokoOneFramework.h; sourceTree = "<group>"; };
-		AB82B98B2AE7A2E300026B2D /* TokoOneFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TokoOneFramework.docc; sourceTree = "<group>"; };
-		AB82B9912AE7A2E300026B2D /* TokoOneFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokoOneFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB82B9962AE7A2E300026B2D /* TokoOneFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokoOneFrameworkTests.swift; sourceTree = "<group>"; };
-		AB82B9A22AE7A30800026B2D /* TokoOne_HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokoOne_HomeView.swift; sourceTree = "<group>"; };
-		AB82B9A42AE7A30800026B2D /* TokoOne_HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokoOne_HomeViewModel.swift; sourceTree = "<group>"; };
+		AB82B9C72AE7ACB900026B2D /* TokoOneFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TokoOneFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB82B9CA2AE7ACB900026B2D /* TokoOneFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TokoOneFramework.h; sourceTree = "<group>"; };
+		AB82B9CB2AE7ACB900026B2D /* TokoOneFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TokoOneFramework.docc; sourceTree = "<group>"; };
+		AB82B9DA2AE7AD0500026B2D /* TokoOne_HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokoOne_HomeView.swift; sourceTree = "<group>"; };
+		AB82B9DC2AE7AD0500026B2D /* TokoOne_HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokoOne_HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AB82B9842AE7A2E300026B2D /* Frameworks */ = {
+		AB82B9C42AE7ACB900026B2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB82B98E2AE7A2E300026B2D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB82B9922AE7A2E300026B2D /* TokoOneFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AB82B97D2AE7A2E200026B2D = {
+		AB82B9BD2AE7ACB900026B2D = {
 			isa = PBXGroup;
 			children = (
-				AB82B9892AE7A2E300026B2D /* TokoOneFramework */,
-				AB82B9952AE7A2E300026B2D /* TokoOneFrameworkTests */,
-				AB82B9882AE7A2E300026B2D /* Products */,
+				AB82B9C92AE7ACB900026B2D /* TokoOneFramework */,
+				AB82B9C82AE7ACB900026B2D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AB82B9882AE7A2E300026B2D /* Products */ = {
+		AB82B9C82AE7ACB900026B2D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB82B9872AE7A2E300026B2D /* TokoOneFramework.framework */,
-				AB82B9912AE7A2E300026B2D /* TokoOneFrameworkTests.xctest */,
+				AB82B9C72AE7ACB900026B2D /* TokoOneFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB82B9892AE7A2E300026B2D /* TokoOneFramework */ = {
+		AB82B9C92AE7ACB900026B2D /* TokoOneFramework */ = {
 			isa = PBXGroup;
 			children = (
-				AB82B98A2AE7A2E300026B2D /* TokoOneFramework.h */,
-				AB82B9A12AE7A30800026B2D /* View */,
-				AB82B9A32AE7A30800026B2D /* ViewModel */,
-				AB82B98B2AE7A2E300026B2D /* TokoOneFramework.docc */,
+				AB82B9D92AE7AD0500026B2D /* View */,
+				AB82B9DB2AE7AD0500026B2D /* ViewModel */,
+				AB82B9CA2AE7ACB900026B2D /* TokoOneFramework.h */,
+				AB82B9CB2AE7ACB900026B2D /* TokoOneFramework.docc */,
 			);
 			path = TokoOneFramework;
 			sourceTree = "<group>";
 		};
-		AB82B9952AE7A2E300026B2D /* TokoOneFrameworkTests */ = {
+		AB82B9D92AE7AD0500026B2D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				AB82B9962AE7A2E300026B2D /* TokoOneFrameworkTests.swift */,
-			);
-			path = TokoOneFrameworkTests;
-			sourceTree = "<group>";
-		};
-		AB82B9A12AE7A30800026B2D /* View */ = {
-			isa = PBXGroup;
-			children = (
-				AB82B9A22AE7A30800026B2D /* TokoOne_HomeView.swift */,
+				AB82B9DA2AE7AD0500026B2D /* TokoOne_HomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		AB82B9A32AE7A30800026B2D /* ViewModel */ = {
+		AB82B9DB2AE7AD0500026B2D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				AB82B9A42AE7A30800026B2D /* TokoOne_HomeViewModel.swift */,
+				AB82B9DC2AE7AD0500026B2D /* TokoOne_HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -110,25 +78,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AB82B9822AE7A2E300026B2D /* Headers */ = {
+		AB82B9C22AE7ACB900026B2D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB82B9982AE7A2E300026B2D /* TokoOneFramework.h in Headers */,
+				AB82B9CD2AE7ACB900026B2D /* TokoOneFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AB82B9862AE7A2E300026B2D /* TokoOneFramework */ = {
+		AB82B9C62AE7ACB900026B2D /* TokoOneFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB82B99B2AE7A2E300026B2D /* Build configuration list for PBXNativeTarget "TokoOneFramework" */;
+			buildConfigurationList = AB82B9D02AE7ACB900026B2D /* Build configuration list for PBXNativeTarget "TokoOneFramework" */;
 			buildPhases = (
-				AB82B9822AE7A2E300026B2D /* Headers */,
-				AB82B9832AE7A2E300026B2D /* Sources */,
-				AB82B9842AE7A2E300026B2D /* Frameworks */,
-				AB82B9852AE7A2E300026B2D /* Resources */,
+				AB82B9C22AE7ACB900026B2D /* Headers */,
+				AB82B9C32AE7ACB900026B2D /* Sources */,
+				AB82B9C42AE7ACB900026B2D /* Frameworks */,
+				AB82B9C52AE7ACB900026B2D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -136,46 +104,24 @@
 			);
 			name = TokoOneFramework;
 			productName = TokoOneFramework;
-			productReference = AB82B9872AE7A2E300026B2D /* TokoOneFramework.framework */;
+			productReference = AB82B9C72AE7ACB900026B2D /* TokoOneFramework.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		AB82B9902AE7A2E300026B2D /* TokoOneFrameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB82B99E2AE7A2E300026B2D /* Build configuration list for PBXNativeTarget "TokoOneFrameworkTests" */;
-			buildPhases = (
-				AB82B98D2AE7A2E300026B2D /* Sources */,
-				AB82B98E2AE7A2E300026B2D /* Frameworks */,
-				AB82B98F2AE7A2E300026B2D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AB82B9942AE7A2E300026B2D /* PBXTargetDependency */,
-			);
-			name = TokoOneFrameworkTests;
-			productName = TokoOneFrameworkTests;
-			productReference = AB82B9912AE7A2E300026B2D /* TokoOneFrameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AB82B97E2AE7A2E300026B2D /* Project object */ = {
+		AB82B9BE2AE7ACB900026B2D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					AB82B9862AE7A2E300026B2D = {
-						CreatedOnToolsVersion = 14.3.1;
-					};
-					AB82B9902AE7A2E300026B2D = {
+					AB82B9C62AE7ACB900026B2D = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = AB82B9812AE7A2E300026B2D /* Build configuration list for PBXProject "TokoOneFramework" */;
+			buildConfigurationList = AB82B9C12AE7ACB900026B2D /* Build configuration list for PBXProject "TokoOneFramework" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -183,26 +129,18 @@
 				en,
 				Base,
 			);
-			mainGroup = AB82B97D2AE7A2E200026B2D;
-			productRefGroup = AB82B9882AE7A2E300026B2D /* Products */;
+			mainGroup = AB82B9BD2AE7ACB900026B2D;
+			productRefGroup = AB82B9C82AE7ACB900026B2D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB82B9862AE7A2E300026B2D /* TokoOneFramework */,
-				AB82B9902AE7A2E300026B2D /* TokoOneFrameworkTests */,
+				AB82B9C62AE7ACB900026B2D /* TokoOneFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AB82B9852AE7A2E300026B2D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB82B98F2AE7A2E300026B2D /* Resources */ = {
+		AB82B9C52AE7ACB900026B2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -212,36 +150,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AB82B9832AE7A2E300026B2D /* Sources */ = {
+		AB82B9C32AE7ACB900026B2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB82B9A62AE7A30800026B2D /* TokoOne_HomeViewModel.swift in Sources */,
-				AB82B98C2AE7A2E300026B2D /* TokoOneFramework.docc in Sources */,
-				AB82B9A52AE7A30800026B2D /* TokoOne_HomeView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB82B98D2AE7A2E300026B2D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB82B9972AE7A2E300026B2D /* TokoOneFrameworkTests.swift in Sources */,
+				AB82B9DE2AE7AD0500026B2D /* TokoOne_HomeViewModel.swift in Sources */,
+				AB82B9CC2AE7ACB900026B2D /* TokoOneFramework.docc in Sources */,
+				AB82B9DD2AE7AD0500026B2D /* TokoOne_HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		AB82B9942AE7A2E300026B2D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AB82B9862AE7A2E300026B2D /* TokoOneFramework */;
-			targetProxy = AB82B9932AE7A2E300026B2D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		AB82B9992AE7A2E300026B2D /* Debug */ = {
+		AB82B9CE2AE7ACB900026B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -302,7 +224,7 @@
 			};
 			name = Debug;
 		};
-		AB82B99A2AE7A2E300026B2D /* Release */ = {
+		AB82B9CF2AE7ACB900026B2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -356,7 +278,7 @@
 			};
 			name = Release;
 		};
-		AB82B99C2AE7A2E300026B2D /* Debug */ = {
+		AB82B9D12AE7ACB900026B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -394,7 +316,7 @@
 			};
 			name = Debug;
 		};
-		AB82B99D2AE7A2E300026B2D /* Release */ = {
+		AB82B9D22AE7ACB900026B2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -427,48 +349,6 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		AB82B99F2AE7A2E300026B2D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XYCHZK7XK5;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jnthnandrei.TokoOneFrameworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AB82B9A02AE7A2E300026B2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XYCHZK7XK5;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jnthnandrei.TokoOneFrameworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -477,34 +357,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB82B9812AE7A2E300026B2D /* Build configuration list for PBXProject "TokoOneFramework" */ = {
+		AB82B9C12AE7ACB900026B2D /* Build configuration list for PBXProject "TokoOneFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB82B9992AE7A2E300026B2D /* Debug */,
-				AB82B99A2AE7A2E300026B2D /* Release */,
+				AB82B9CE2AE7ACB900026B2D /* Debug */,
+				AB82B9CF2AE7ACB900026B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB82B99B2AE7A2E300026B2D /* Build configuration list for PBXNativeTarget "TokoOneFramework" */ = {
+		AB82B9D02AE7ACB900026B2D /* Build configuration list for PBXNativeTarget "TokoOneFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB82B99C2AE7A2E300026B2D /* Debug */,
-				AB82B99D2AE7A2E300026B2D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AB82B99E2AE7A2E300026B2D /* Build configuration list for PBXNativeTarget "TokoOneFrameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB82B99F2AE7A2E300026B2D /* Debug */,
-				AB82B9A02AE7A2E300026B2D /* Release */,
+				AB82B9D12AE7ACB900026B2D /* Debug */,
+				AB82B9D22AE7ACB900026B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AB82B97E2AE7A2E300026B2D /* Project object */;
+	rootObject = AB82B9BE2AE7ACB900026B2D /* Project object */;
 }
